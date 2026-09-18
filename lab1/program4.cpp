@@ -21,7 +21,7 @@ class Time{
 int main(){
 
     Time t1, t2;
-    t1.input(10, 30, 45);
+    t1.input(10, 30, 50);
     t2.input(14, 15, 30);
     t1.show();
     t2.show();
