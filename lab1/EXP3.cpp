@@ -24,7 +24,7 @@ int main() {
     cout << "Square: " << square(5) << endl;
 
     cout << "Addition: " << add(20) << endl;
-    cout << "Addition: " << add(20, 30) << endl;
+    cout << "Addition: " << add(20, 40) << endl;
 
     cout << "Integer multiplication: " << multiply(4, 5) << endl;
     cout << "Float multiplication: " << multiply(2.5f, 3.0f) << endl;
