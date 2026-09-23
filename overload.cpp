@@ -18,15 +18,20 @@ class comp{
         return t;*/
        //}
        friend comp operator+(comp c,int x);
+       friend comp operator+(int c, comp d);
        
 };
     comp operator+(comp c,int x){
         return comp(c.real+x,c.img+x);
     }
+    comp operator+(int c,comp d){
+        return comp(c+d.real,c+d.img);
+    }
 int main(){
     comp c1{5,10},c2{10,20},c3;
      //c3=c1+c2;
-     c3=c1+5;
+     //c3=c1+5;
+     c3=5+c2;
     c1.show();
     c2.show();
     c3.show();
