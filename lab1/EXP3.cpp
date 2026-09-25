@@ -7,7 +7,7 @@ inline int square(int n) {
 }
 
 // Default argument
-int add(int a, int b = 10) {
+int add(int a, int b = 20) {
     return a + b;
 }
 
