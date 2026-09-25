@@ -6,7 +6,7 @@ inline int add(int a, int b)
     return a + b;
 }
 
-int add(int a, int b, int c = 0)
+int add(int a, int b, int c)
 {
     return a + b + c;
 }
